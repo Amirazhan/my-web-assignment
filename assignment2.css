@@ -1,0 +1,233 @@
+.Background{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background:#FAD8A6;
+}
+.NavigationMenu{
+    font-size: 25px;
+    position: absolute;
+    width: 400px;
+    height: 24px;
+    left: 1100px;
+    top: 29px;
+}
+.link{ 
+        text-decoration: none;
+        font-family: 'Montserrat', sans-serif; 
+        color: white;
+        transition: color 0.2s linear;
+        margin: 0 10px;   
+    }
+.link:hover{
+    color:black;
+}
+.img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 305px;
+}
+.Start{
+    position: absolute;
+    width: 304px;
+    height: 100px;
+    left: 91px;
+    top: 146px;
+
+}
+#Greeting{
+    position: absolute;
+    left: 20px;
+    width: 500px;
+    height: 45px;
+    top: 20px;
+    font-family: sans-serif;
+    font-size: 50px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    color: black;
+    mix-blend-mode: normal;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#Name{
+    position: absolute;
+    left: 20px;
+    width: 500px;
+    height: 45px;
+    top: 70px;
+    font-family: sans-serif;
+    font-size: 50px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    color: black;
+    mix-blend-mode: normal;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.TEXT1{
+    font-family: sans-serif;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: #372727;
+    justify-content: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#About{
+    position: absolute;
+    width: 1042px;
+    height: 329px;
+    left: 100px;
+    top: 1000px;
+}
+.Aboutme{
+    Position: absolute;
+    width: 500px;
+    height: 45px;
+    left: 10px;
+    top: 50px;
+    font-family: sans-serif;
+    font-size: 30px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    color: black;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.TEXT2{
+    padding-top: 100px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: #372727;
+    justify-content: space-between;
+}
+.images3{
+    width: 507px;
+    height: 290px;
+    left: 630px;
+    top: -30px;
+    padding-left: 100px;
+}
+.Projects{
+    position: absolute;
+    left: 71px;
+    top: 1319px;
+}
+.Proj{
+    position: absolute;
+    width: 500px;
+    height: 45px;
+    left: -50px;
+    top: -700px;
+    font-family: sans-serif;
+    font-size: 30px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    color: black;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.container{
+    position: absolute;
+    width: 1200px;
+    height: 138px;
+    left: 10px;
+    top: 130px;
+    font-family: sans-serif;
+    font-size: 36px;
+    line-height: 42px;
+    display: flex;
+    align-items: flex-end;
+    color: #372727;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.projects_card{
+    width: 400px;
+    height: 200px;
+    background: white;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 18px 28px;
+    margin-right: 800px;
+    left: 10px;
+    
+}
+.projects_card h1{
+    font-weight: bold;
+    font-size: 20px;
+}
+.projects_card p{
+    font-weight: normal;
+    font-size: 14px;
+}
+#Contacts{
+    position: absolute;
+    width: 300px;
+    height: 212px;
+    left: -10px;
+    top: 200px;
+    color:black;
+}
+.Cont{
+    position: absolute;
+    width: 300px;
+    height: 54px;
+    left: 71px;
+    top: 200px;
+    font-family: sans-serif;
+    font-size: 30px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+.TEXT3 p{
+    position: absolute;
+    width: 200px;
+    height: 139px;
+    left: 10px;
+    top: -150px;
+    font-family: sans-serif;
+    font-size: 30px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.TEXT4 p{
+    position: absolute;
+    width: 218px;
+    height: 139px;
+    left: 400px;
+    top: -150px;
+    font-family: sans-serif;
+    font-size: 30px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: #372727;
+}
+.TEXT5 p{
+    position: absolute;
+    width: 218px;
+    height: 139px;
+    left: 790px;
+    top: -150px;
+    font-family: sans-serif;
+    font-size: 30px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: #372727;
+}
